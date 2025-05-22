@@ -1,15 +1,25 @@
 .hero-section {
   padding: 124px 0;
   position: relative;
-  background-color: var(--secondary-light);
+  background-color: var(--primary);
   overflow: hidden;
 
   @media screen and (min-width: $bp-tablet) {
     padding: 150px 0;
   }
 
-  @media screen and (min-width: $bp-desktop) {
-    padding: 220px 0;
+  &__container {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+    align-items: center;
+
+    @media screen and (min-width: $bp-tablet) {
+      flex-direction: row;
+      gap: 60px;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
   }
 
   &__content {
@@ -22,19 +32,26 @@
     gap: 35px;
 
     @media screen and (min-width: $bp-tablet) {
-      width: 40%;
+      width: 50%;
       align-items: flex-start;
     }
   }
 
   &__title {
-    position: relative;
     font-family: var(--second-family);
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 120%;
-    letter-spacing: -0.03em;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 117%;
+    letter-spacing: -0.02em;
     margin: 0;
+
+    @media screen and (min-width: $bp-tablet) {
+      font-size: 48px;
+    }
+
+    @media screen and (min-width: $bp-desktop) {
+      font-size: 58px;
+    }
   }
 
   &__text {
@@ -48,23 +65,15 @@
     margin-left: 0;
     width: fit-content;
     text-wrap: nowrap;
+    align-self: center;
   }
 
   &__img {
-    position: absolute;
-    bottom: -40px;
-    right: 10%;
-    display: none;
+    width: 70%;
+    object-fit: contain;
 
     @media screen and (min-width: $bp-tablet) {
-      width: 70%;
-      display: block;
-      right: 0;
-    }
-
-    @media screen and (min-width: $bp-min-desktop) {
-      right: 10%;
-      width: 50%;
+      width: 35%;
     }
   }
 }

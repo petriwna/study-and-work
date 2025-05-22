@@ -1,18 +1,19 @@
 .button {
   display: block;
-  border-radius: 6px;
+  border-radius: 32px;
   padding: 5px 26px;
-  color: var(--primary);
-  background-color: var(--secondary-orang);
-  border: 2px solid var(--secondary-orang);
+  color: var(--color-white);
+  background-color: var(--secondary-orange);
+  border: 2px solid var(--secondary-orange);
   cursor: pointer;
   font-weight: 600;
-  font-size: 16px;
-  line-height: 161%;
+  font-size: 18px;
+  line-height: 167%;
+  text-align: center;
   text-wrap: nowrap;
 
   &:hover {
-    color: var(--secondary-orang);
+    color: var(--secondary-orange);
     background: transparent;
   }
 
