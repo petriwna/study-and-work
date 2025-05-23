@@ -1,10 +1,10 @@
 .questions-container {
-  border-radius: 10px;
+  border-radius: 16px;
   padding: 20px 24px;
   transition: 0.3s ease-in-out;
-  border: 1px solid var(--color-brand-light);
-  background-color: var(--secondary-grey);
-  height: fit-content;
+  height: 100%;
+  background-color: var(--color-white);
+  box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.05);
 }
 
 details[open] summary ~ * {
@@ -34,7 +34,7 @@ details summary {
   font-size: 20px;
   line-height: 160%;
   list-style: none;
-  color: var(--color-secondary);
+  color: var(--color-text-primary);
   justify-content: space-between;
 }
 
