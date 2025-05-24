@@ -44,7 +44,7 @@
     <link rel="icon" type="image/svg+xml" href="./favicon/favicon.svg"/>
     <link rel="shortcut icon" href="./favicon/favicon.ico"/>
     <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png"/>
-    <meta name="apple-mobile-web-app-title" content="Study"/>
+    <meta name="apple-mobile-web-app-title" content="Study&Work" />
     <link rel="manifest" href="./favicon/site.webmanifest"/>
 </head>
 <body>
@@ -53,16 +53,15 @@
         <div class="header__container">
             <nav class="header__nav">
                 <div class="header__logo logo">
-                    <img class="logo__img" src="public/images/logo.svg" alt="Logo">
+                    <a class="link logo__link" href="/">Study&Work<span class="accent">.</span></a>
                 </div>
                 <ul class="header__menu">
-                    <li><a class="link" href="#education-types">Education Types</a></li>
-                    <li><a class="link" href="#application">Documents</a></li>
-                    <li><a class="link" href="#costs">Costs</a></li>
+                    <li><a class="link" href="#education-types">Education</a></li>
+                    <li><a class="link" href="#application">Application</a></li>
+                    <li><a class="link" href="#costs">Tuition & Funding</a></li>
                     <li><a class="link" href="#student-life">Student Life</a></li>
-                    <li><a class="link" href="#career">Career</a></li>
+                    <li><a class="link" href="#career">Post-Graduation</a></li>
                     <li><a class="link" href="#faq">FAQ</a></li>
-                    <li><a class="link" href="#subscribe">Get the Guide</a></li>
                 </ul>
             </nav>
             <button class="header__burger menu-btn-open" type="button">
@@ -78,16 +77,15 @@
                     </svg>
                 </button>
                 <div class="header__logo logo">
-                    <img class="logo__img" src="public/images/logo.svg" alt="Logo">
+                    <a class="link logo__link" href="/">Study&Work<span class="accent">.</span></a>
                 </div>
                 <ul class="mobile-menu__list">
-                    <li><a class="mobile-menu__link" href="#education-types">Education Types</a></li>
-                    <li><a class="mobile-menu__link" href="#application">Application & Documents</a></li>
-                    <li><a class="mobile-menu__link" href="#costs">Costs & Funding</a></li>
+                    <li><a class="mobile-menu__link" href="#education-types">Education</a></li>
+                    <li><a class="mobile-menu__link" href="#application">Application</a></li>
+                    <li><a class="mobile-menu__link" href="#costs">Tuition & Funding</a></li>
                     <li><a class="mobile-menu__link" href="#student-life">Student Life</a></li>
-                    <li><a class="mobile-menu__link" href="#career">Career Prospects</a></li>
+                    <li><a class="mobile-menu__link" href="#career">Post-Graduation</a></li>
                     <li><a class="mobile-menu__link" href="#faq">FAQ</a></li>
-                    <li><a class="mobile-menu__link" href="#subscribe">Get the Guide</a></li>
                 </ul>
             </div>
         </div>
@@ -116,52 +114,61 @@
     <section class="section education-section" id="education-types">
         <div class="container education-section__container">
             <div class="education-section__content">
-                <h2 class="section__title">Types of Education in Canada
+                <h2 class="section__title section__title--centered">Types of Education in Canada
                 </h2>
-                <p>Canada offers diverse educational options for international students, ranging from career-focused
+                <p class="section__subtitle">Canada offers diverse educational options for international students,
+                    ranging from career-focused
                     diplomas to advanced academic degrees. Below are the main pathways you can choose from:</p>
-                <ul>
+                <ul class="education-section__list">
                     <li>
-                        <strong>Colleges and Institutes</strong> – These institutions offer practical, career-oriented
-                        programs, including diplomas, certificates, and applied degrees. Many have co-op placements or
-                        internships.
-                        (<a href="https://www.collegesinstitutes.ca/" target="_blank" rel="noopener">CICan – Colleges
-                        and Institutes Canada</a>)
+                        <article class="edu-card">
+                            <h3 class="edu-card__title">Colleges & Institutes</h3>
+                            <p>Career-focused diplomas, certificates, and co-op programs. <a class="link link--content"
+                                                                                             href="https://www.collegesinstitutes.ca/"
+                                                                                             target="_blank"
+                                                                                             rel="noopener">CICan</a>
+                            </p>
+                        </article>
                     </li>
                     <li>
-                        <strong>Universities</strong> – Known for academic and research excellence, universities offer
-                        Bachelor's, Master's, and PhD degrees across a wide range of disciplines.
-                        (<a href="https://www.univcan.ca/" target="_blank" rel="noopener">Universities Canada</a>)
+                        <article class="edu-card">
+                            <h3 class="edu-card__title"> Universities</h3>
+                            <p>Bachelor’s to PhD programs with strong research. <a class="link link--content"
+                                                                                   href="https://www.univcan.ca/"
+                                                                                   target="_blank" rel="noopener">Universities
+                                Canada</a></p>
+                        </article>
                     </li>
                     <li>
-                        <strong>Language Schools</strong> – English or French language training for academic or
-                        immigration purposes. Many are part of certified associations.
-                        (<a href="https://www.languagescanada.ca/" target="_blank" rel="noopener">Languages Canada</a>)
+                        <article class="edu-card">
+                            <h3 class="edu-card__title"> Language Schools</h3>
+                            <p>English or French training for study or immigration. <a class="link link--content"
+                                                                                       href="https://www.languagescanada.ca/"
+                                                                                       target="_blank" rel="noopener">Languages
+                                Canada</a></p>
+                        </article>
                     </li>
                     <li>
-                        <strong>Pathway Programs</strong> – Preparatory programs for students who do not meet direct
-                        admission requirements. These may include language training or academic upgrading.
+                        <article class="edu-card">
+                            <h3 class="edu-card__title">Pathway Programs</h3>
+                            <p>Prepares students for direct admission—includes language and academic upgrading.</p>
+                        </article>
                     </li>
                     <li>
-                        <strong>Provincial Education Systems</strong> – Each province and territory manages its own
-                        education system. For example:
-                        <ul>
-                            <li>
-                                <strong>Ontario:</strong> Largest college network in Canada.
-                                (<a href="https://www.ontariocolleges.ca/" target="_blank" rel="noopener">Ontario
-                                Colleges</a>)
-                            </li>
-                            <li>
-                                <strong>British Columbia:</strong> Offers strong support for international students.
-                                (<a href="https://studentaidbc.ca/" target="_blank" rel="noopener">StudentAid BC</a>)
-                            </li>
-                            <li>
-                                <strong>Quebec:</strong> Unique education structure with CEGEPs and French-language
-                                options.
-                                (<a href="https://www.quebec.ca/en/education" target="_blank" rel="noopener">Quebec.ca –
-                                Education</a>)
-                            </li>
-                        </ul>
+                        <article class="edu-card">
+                            <h3 class="edu-card__title">Provincial Systems</h3>
+                            <p>
+                                Ontario: <a class="link link--content" href="https://www.ontariocolleges.ca/"
+                                            target="_blank" rel="noopener">Ontario
+                                Colleges</a><br>
+                                BC: <a class="link link--content" href="https://studentaidbc.ca/" target="_blank"
+                                       rel="noopener">StudentAid
+                                BC</a><br>
+                                Quebec: <a class="link link--content" href="https://www.quebec.ca/en/education"
+                                           target="_blank" rel="noopener">Quebec
+                                Education</a>
+                            </p>
+                        </article>
                     </li>
                 </ul>
             </div>
@@ -170,155 +177,222 @@
     <section class="section application-section" id="application">
         <div class="container application-section__container">
             <div class="application-section__content">
-                <h2>📋 Admissions & Required Documents</h2>
-                <p>Applying to study in Canada as an international student involves meeting academic and language
-                    requirements, and preparing essential documents. Here's what you need to know:</p>
-                <ul>
+                <h2 class="section__title section__title--centered">Admissions & Required Documents</h2>
+                <ul class="application-section__list">
                     <li>
-                        <strong>Academic Requirements</strong> – Most programs require a high school diploma (for
-                        undergraduate) or a relevant degree (for graduate studies). Specific grade point averages (GPA)
-                        and prerequisite subjects may apply depending on the institution.
+                        <article class="application-card">
+                            <div class="application-card__icon">
+                                <svg class="application-card__icon" width="25" height="25">
+                                    <use href="./public/images/icons.svg#icon-check"></use>
+                                </svg>
+                            </div>
+                            <div class="application-card__content">
+                                <h3 class="application-card__title">Academic Requirements</h3>
+                                <p>High school diploma or degree, GPA, and prerequisite subjects may apply.</p>
+                            </div>
+                        </article>
                     </li>
                     <li>
-                        <strong>Credential Evaluation</strong> – If your previous education was completed outside
-                        Canada, you may need to have your transcripts assessed. The most widely accepted service is
-                        <a href="https://www.wes.org/ca/" target="_blank" rel="noopener">WES Canada (World Education
-                            Services)</a>.
+                        <article class="application-card">
+                            <div class="application-card__icon">
+                                <svg class="application-card__icon" width="25" height="25">
+                                    <use href="./public/images/icons.svg#icon-check"></use>
+                                </svg>
+                            </div>
+                            <div class="application-card__content">
+                                <h3 class="application-card__title">Credential Evaluation</h3>
+                                <p>Foreign transcripts may need assessment by <a class="link link--content"
+                                                                                 href="https://www.wes.org/ca/"
+                                                                                 target="_blank"
+                                                                                 rel="noopener">WES Canada</a>.</p>
+                            </div>
+                        </article>
                     </li>
                     <li>
-                        <strong>Language Proficiency Tests</strong> – English or French test results are required:
-                        <ul>
-                            <li><a href="https://www.ielts.org/" target="_blank" rel="noopener">IELTS</a> – Academic
-                                format (most widely accepted)
-                            </li>
-                            <li><a href="https://www.ets.org/toefl" target="_blank" rel="noopener">TOEFL iBT</a></li>
-                            <li><a href="https://englishtest.duolingo.com/" target="_blank" rel="noopener">Duolingo
-                                English Test</a> – Accepted by some institutions, especially for online applicants
-                            </li>
-                        </ul>
+                        <article class="application-card">
+                            <div class="application-card__icon">
+                                <svg class="application-card__icon" width="25" height="25">
+                                    <use href="./public/images/icons.svg#icon-check"></use>
+                                </svg>
+                            </div>
+                            <div class="application-card__content">
+                                <h3 class="application-card__title">Language Tests</h3>
+                                <p>Accepted tests: IELTS, TOEFL iBT, or Duolingo English Test (some schools).</p>
+                            </div>
+                        </article>
                     </li>
                     <li>
-                        <strong>Letter of Acceptance (LOA)</strong> – After meeting academic and language requirements,
-                        students receive an LOA from a Designated Learning Institution (DLI), which is required for a
-                        study permit application.
+                        <article class="application-card">
+                            <div class="application-card__icon">
+                                <svg class="application-card__icon" width="25" height="25">
+                                    <use href="./public/images/icons.svg#icon-check"></use>
+                                </svg>
+                            </div>
+                            <div class="application-card__content">
+                                <h3 class="application-card__title">Letter of Acceptance</h3>
+                                <p>Issued by a Designated Learning Institution (DLI) after you meet all
+                                    requirements.</p>
+                            </div>
+                        </article>
                     </li>
                     <li>
-                        <strong>Other Documents</strong> – Valid passport, academic transcripts, letters of
-                        recommendation (if required), personal statement or statement of purpose.
+                        <article class="application-card">
+                            <div class="application-card__icon">
+                                <svg class="application-card__icon" width="25" height="25">
+                                    <use href="./public/images/icons.svg#icon-check"></use>
+                                </svg>
+                            </div>
+                            <div class="application-card__content">
+                                <h3 class="application-card__title">Additional Documents</h3>
+                                <p>Passport, transcripts, letters of recommendation, personal statement, etc.</p>
+                            </div>
+                        </article>
                     </li>
                 </ul>
             </div>
         </div>
     </section>
     <section class="section costs-section" id="costs">
-        <div class="container costs-section__container">
-            <div class="costs-section__content">
-                <h2>💰 Costs and Financing</h2>
-                <p>Tuition, living costs, federal/provincial/university scholarships, part-time work, and PGWP
-                    eligibility.</p>
-                <ul>
-                    <li><a href="https://www.scholarshipscanada.com/">ScholarshipsCanada</a></li>
-                    <li><a href="https://studentaidbc.ca/">StudentAid BC</a></li>
+        <div class="container">
+            <h2 class="section__title section__title--centered">Tuition Costs and<br> Funding Opportunities</h2>
+            <p class="section__subtitle">Studying in Canada involves both tuition and living expenses. However,
+                there are various options to help international students manage the costs.</p>
+
+            <div class="costs-section__container">
+                <ul class="costs-section__content">
+                    <li class="costs-section__item">
+                        <article class="cost-card">
+                            <h3 class="cost-card__title">Average Costs</h3>
+                            <p>Tuition ranges from <strong>CAD 7,000–30,000/year</strong>. Living expenses add another
+                                <strong>CAD 10,000–15,000</strong>.</p>
+                        </article>
+                    </li>
+                    <li class="costs-section__item">
+                        <article class="cost-card">
+                            <h3 class="cost-card__title">Scholarships</h3>
+                            <p>Explore government and institutional awards like <a class="link link--content"
+                                                                                   href="https://www.educanada.ca/"
+                                                                                   target="_blank" rel="noopener">EduCanada
+                                Scholarships</a> and <a class="link link--content"
+                                                        href="https://www.scholarshipscanada.com/" target="_blank"
+                                                        rel="noopener">ScholarshipsCanada.com</a>.</p>
+                        </article>
+                    </li>
+                    <li class="costs-section__item">
+                        <article class="cost-card">
+                            <h3 class="life-card__title">Part-Time Work</h3>
+                            <p>Students with valid permits can work <strong>up to 20 hours/week</strong>. Learn more on
+                                the
+                                <a class="link link--content"
+                                   href="https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work.html"
+                                   target="_blank" rel="noopener">IRCC site</a>.</p>
+                        </article>
+                    </li>
+                    <li class="costs-section__item">
+                        <article class="cost-card">
+                            <h3 class="cost-card__title">Post-Graduation Work Permit</h3>
+                            <p>Graduates from eligible programs may qualify for a <strong>PGWP</strong> to gain Canadian
+                                work experience.</p>
+                        </article>
+                    </li>
                 </ul>
+                <img class="costs-section__img"
+                     srcset="public/images/costs.png 1x, public/images/costs@2x.png 2x"
+                     src="public/images/costs.png"
+                     alt="Students">
             </div>
         </div>
     </section>
     <section class="section life-section" id="student-life">
         <div class="container">
-            <h2 class="section__title section__title--centered"><span class="accent">Student Life</span> in Canada</h2>
-            <p class="section__subtitle">Life as an international student goes beyond academics. It includes adapting to
-                new surroundings, managing daily needs, and enjoying Canadian culture.</p>
-            <ul class="life-section__list">
-                <li>
-                    <article class="life-card">
-                        <div>
-                            <svg class="life-card__icon" width="150" height="150">
-                                <use href="./public/images/icons.svg#icon-house"></use>
-                            </svg>
-                        </div>
-                        <div class="life-card__content">
-                            <h3 class="life-card__title">Housing</h3>
-                            <p class="life-card__text">Choose from campus residences, homestays, or private rentals.
-                                Availability
-                                and cost vary by location.</p>
-                        </div>
-                    </article>
-                </li>
-                <li>
-                    <article class="life-card">
-                        <div>
-                            <svg class="life-card__icon" width="150" height="150">
-                                <use href="./public/images/icons.svg#icon-bank"></use>
-                            </svg>
-                        </div>
-                        <div class="life-card__content">
-                            <h3 class="life-card__title">Banking</h3>
-                            <p class="life-card__text">Most major banks offer no-fee student accounts with easy sign-up
-                                processes.</p>
-                        </div>
-                    </article>
-                </li>
-                <li>
-                    <article class="life-card">
-                        <div>
-                            <svg class="life-card__icon" width="150" height="150">
-                                <use href="./public/images/icons.svg#icon-transport"></use>
-                            </svg>
-                        </div>
-                        <div class="life-card__content">
-                            <h3 class="life-card__title">Local Transportation</h3>
-                            <p class="life-card__text">Access to buses, subways, and bikes varies by city.
-                                Students
-                                usually get discounted passes.</p>
-                        </div>
-                    </article>
-                </li>
-                <li>
-                    <article class="life-card">
-                        <div>
-                            <svg class="life-card__icon" width="150" height="150">
-                                <use href="./public/images/icons.svg#icon-medical"></use>
-                            </svg>
-                        </div>
-                        <div class="life-card__content">
-                            <h3 class="life-card__title">Health Services</h3>
-                            <p class="life-card__text">In addition to insurance, universities provide access to
-                                on-campus
-                                health and counselling services.</p>
-                        </div>
-                    </article>
-                </li>
-                <li>
-                    <article class="life-card">
-                        <div>
-                            <svg class="life-card__icon" width="150" height="150">
-                                <use href="./public/images/icons.svg#icon-events"></use>
-                            </svg>
-                        </div>
-                        <div class="life-card__content">
-                            <h3 class="life-card__title">Campus Life</h3>
-                            <p class="life-card__text">Student groups, events, and clubs help with integration and
-                                making
-                                connections.</p>
-                        </div>
-                    </article>
-                </li>
-                <li>
-                    <article class="life-card">
-                        <div>
-                            <svg class="life-card__icon" width="150" height="150">
-                                <use href="./public/images/icons.svg#icon-weather"></use>
-                            </svg>
-                        </div>
-                        <div class="life-card__content">
-                            <h3 class="life-card__title">Weather & Culture</h3>
-                            <p class="life-card__text">Be ready for cultural diversity and seasonal
-                                changes—from snowy
-                                winters to hot summers.</p>
-                        </div>
-                    </article>
-                </li>
-            </ul>
+            <h2 class="section__title section__title--centered">Student Life in Canada</h2>
+            <p class="section__subtitle">Living in Canada as an international student means adapting to a new
+                environment both academically and socially. Here's what to expect and prepare for:</p>
+
+            <div class="life-section__container">
+                <img class="life-section__img"
+                     srcset="public/images/student.png 1x, public/images/student@2x.png 2x"
+                     src="public/images/student.png"
+                     alt="Students">
+                <ul class="life-section__content">
+                    <li>
+                        <article class="life-card">
+                            <div class="life-card__top">
+                                <div class="life-card__icon">
+                                    <svg class="life-card__icon" width="40" height="40">
+                                        <use href="./public/images/icons.svg#icon-medical"></use>
+                                    </svg>
+                                </div>
+                                <h3 class="life-card__title">Health Insurance</h3>
+                            </div>
+                            <p>Coverage depends on the province. Some offer public insurance, others require private
+                                plans.
+                                Check with your institution.</p>
+                        </article>
+                    </li>
+                    <li>
+                        <article class="life-card">
+                            <div class="life-card__top">
+                                <div class="life-card__icon">
+                                    <svg class="life-card__icon" width="40" height="40">
+                                        <use href="./public/images/icons.svg#icon-house"></use>
+                                    </svg>
+                                </div>
+                                <h3 class="life-card__title">Housing</h3>
+                            </div>
+                            <p>Choose between on-campus dorms or off-campus apartments. Costs vary by city and
+                                location.</p>
+                        </article>
+                    </li>
+                    <li>
+                        <article class="life-card">
+                            <div class="life-card__top">
+                                <div class="life-card__icon">
+                                    <svg class="life-card__icon" width="40" height="40">
+                                        <use href="./public/images/icons.svg#icon-bank"></use>
+                                    </svg>
+                                </div>
+                                <h3 class="life-card__title">Banking</h3>
+                            </div>
+                            <p>Open a Canadian bank account to manage tuition and job income. Student plans are often
+                                free
+                                or discounted.</p>
+                        </article>
+                    </li>
+                    <li>
+                        <article class="life-card">
+                            <div class="life-card__top">
+                                <div class="life-card__icon">
+                                    <svg class="life-card__icon" width="40" height="40">
+                                        <use href="./public/images/icons.svg#icon-transport"></use>
+                                    </svg>
+                                </div>
+                                <h3 class="life-card__title">Transportation</h3>
+                            </div>
+                            <p>Public transit is accessible in most cities. Students can often get discounted monthly
+                                passes.</p>
+                        </article>
+                    </li>
+                    <li>
+                        <article class="life-card">
+                            <div class="life-card__top">
+                                <div class="life-card__icon">
+                                    <svg class="life-card__icon" width="40" height="40">
+                                        <use href="./public/images/icons.svg#icon-events"></use>
+                                    </svg>
+                                </div>
+                                <h3 class="life-card__title">Campus Life</h3>
+                            </div>
+                            <p>Join clubs, attend events, and connect through orientation programs. Campuses are social
+                                and
+                                supportive.</p>
+                            <p class="life-note">Learn more about adapting to campus life on <a
+                                    class="link link--content"
+                                    href="https://www.educanada.ca/" target="_blank" rel="noopener">EduCanada</a>.</p>
+                        </article>
+                    </li>
+                </ul>
+            </div>
         </div>
     </section>
     <section id="career" class="section career-section">
@@ -469,7 +543,7 @@
 <footer class="footer">
     <div class="container footer__container">
         <div class="footer__content">
-            <div class="form footer__form">
+            <div class="form footer__form" id="subscribe">
                 <h2 class="form__title">Request Your Free Study Guide</h2>
                 <form action="#" method="post" class="form__item">
                     <div class="input">
@@ -490,10 +564,10 @@
             </div>
             <nav class="footer__nav">
                 <a class="link footer__link-nav" href="#education-types">Education</a>
-                <a class="link footer__link-nav" href="#admissions">Admissions</a>
-                <a class="link footer__link-nav" href="#funding">Funding</a>
+                <a class="link footer__link-nav" href="#application">Application</a>
+                <a class="link footer__link-nav" href="#costs">Tuition & Funding</a>
                 <a class="link footer__link-nav" href="#student-life">Student Life</a>
-                <a class="link footer__link-nav" href="#career-opportunities">Careers</a>
+                <a class="link footer__link-nav" href="#career">Post-Graduation</a>
                 <a class="link footer__link-nav" href="#faq">FAQ</a>
             </nav>
         </div>

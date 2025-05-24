@@ -1,8 +1,10 @@
 .link {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 175%;
   color: var(--color-black);
   text-decoration: none;
   transition: color 0.3s;
-  font-weight: 500;
 
   &:hover {
     color: var(--secondary-orange);

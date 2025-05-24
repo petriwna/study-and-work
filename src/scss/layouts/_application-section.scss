@@ -13,26 +13,5 @@
 
   &__content {
     width: 100%;
-
-    @media screen and (min-width: $bp-tablet) {
-      width: 50%;
-    }
-  }
-
-  &__list {
-    width: 100%;
-
-    @media screen and (min-width: $bp-tablet) {
-      width: 50%;
-    }
-  }
-
-  &__img {
-    object-fit: contain;
-    display: none;
-
-    @media screen and (min-width: $bp-tablet) {
-      display: block;
-    }
   }
 }

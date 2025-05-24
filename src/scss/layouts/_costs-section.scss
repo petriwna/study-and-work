@@ -30,7 +30,7 @@
   &__img {
     width: 70%;
     object-fit: contain;
-    transform: scaleX(-1);
+    border-radius: 16px;
 
     @media screen and (min-width: $bp-tablet) {
       width: 50%;

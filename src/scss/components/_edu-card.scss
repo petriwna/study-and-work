@@ -1,0 +1,17 @@
+.edu-card {
+  padding: 10px;
+  font-size: 14px;
+  line-height: 186%;
+  text-align: center;
+  box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.05);
+  border: 1px solid #e2dfda;
+  border-radius: 12px;
+  height: 100%;
+
+  &__title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 175%;
+    margin: 0;
+  }
+}

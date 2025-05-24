@@ -13,7 +13,9 @@
   }
 
   &__icon {
-    fill: var(--secondary);
+    margin-top: 2px;
+    stroke: var(--secondary-orange);
+    fill: transparent;
   }
 
   &__text {
