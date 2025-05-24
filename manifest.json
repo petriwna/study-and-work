@@ -1,4 +1,5 @@
 {
+  "main.css": "auto/main.css",
   "main.js": "auto/scripts.js",
   "public/images/hero@2x.png": "auto/public/images/hero@2x.png",
   "public/images/student@2x.png": "auto/public/images/student@2x.png",
@@ -22,12 +23,12 @@
   "favicon/apple-touch-icon.png": "auto/favicon/apple-touch-icon.png",
   "favicon/favicon.svg": "auto/favicon/favicon.svg",
   "favicon/favicon-96x96.png": "auto/favicon/favicon-96x96.png",
-  "privacy-policy.html": "auto/privacy-policy.html",
   "cookies.html": "auto/cookies.html",
   "terms.html": "auto/terms.html",
+  "privacy-policy.html": "auto/privacy-policy.html",
   "sitemap.xml": "auto/sitemap.xml",
   "favicon/site.webmanifest": "auto/favicon/site.webmanifest",
   "robots.txt": "auto/robots.txt",
-  "scripts.js.map": "auto/scripts.js.map",
-  "main.hot-update.js.map": "auto/main.3912ecd645bbb80d238c.hot-update.js.map"
+  "main.css.map": "auto/main.css.map",
+  "scripts.js.map": "auto/scripts.js.map"
 }
